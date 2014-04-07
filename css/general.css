@@ -33,6 +33,12 @@ body {
 
 Header { 
     background-color: #83963A;
+    padding-bottom: 7.25rem;
+}
+
+hr {
+    color: #83963A; 
+    margin: 0;
 }
 
 .logo {
@@ -60,14 +66,27 @@ Header {
 .nav-top a:visited {
     display: inline-block;
     margin: 0;
-    padding: 1.5rem 10%;
+    padding: 3.5rem 5%;
     color: black;
     text-decoration: none;
     font-size: 1.25;
+    float: right;
 }
 
 .selected {
     background-color: #BED797;
+}
+
+ div, #rectangle {
+	width: 100%;
+	height: .5rem;
+	background: white;
+}
+
+div, #rectangle {
+	width: 100%;
+	height: .5rem;
+	background: #83963A;
 }
 
 article {
@@ -85,7 +104,7 @@ h1{
 
 figure {
     margin: 0 auto 1.5rem;
-    width: 60%;
+    width: 100%;
 }
 
 figure a,
@@ -98,6 +117,7 @@ figure a:visited {
 
 p {
     font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
 }
 
 footer {
@@ -106,18 +126,20 @@ footer {
     background-color: #83963A;
 }
 
-.nav-bottom ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
 
-.nav-bottom a,
-.nav-bottom a:link,
-.nav-bottom a:visited {
-    color: white;
+.nav-bottom,
+.nav-bottom :link,
+.nav-bottom :visited {
+    color: #BED797;
     text-decoration: none;
-    font-size: .875rem;
     line-height: 1.5rem;
 }
-    
+
+footer p {
+     float:center center;
+    font-size: 0.750rem;
+
+}
+
+footer img{
+    margin: 
