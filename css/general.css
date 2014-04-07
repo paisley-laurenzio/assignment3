@@ -98,6 +98,11 @@ h2 {
     margin-bottom: 1rem;
 }
 
+h3 {
+    font-size: 1.5rem;
+    font-family: 'Gabriela', serif;
+}
+
 figure {
     margin: 0 auto 1.5rem;
     width: 100%;
@@ -118,7 +123,8 @@ figure a:visited {
 
 .productpictures {
     width: 40%;
-    float: right; 
+    float: right;
+    padding-bottom: 5rem;
 }
 
 .products {
