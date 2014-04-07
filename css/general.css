@@ -111,6 +111,22 @@ figure a:visited {
     text-decoration: none;
 }
 
+.productheader {
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+
+.productpictures {
+    width: 40%;
+    float: right; 
+}
+
+.products {
+font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 4rem
+}
+
 p {
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
