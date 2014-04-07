@@ -33,19 +33,14 @@ body {
 
 Header { 
     background-color: #83963A;
-    padding-bottom: 7.25rem;
-}
-
-hr {
-    color: #83963A; 
-    margin: 0;
+    padding-bottom: 7.75rem;
 }
 
 .logo {
     width: 6.5rem;
     height: auto;
     float: left;
-    margin: 0.5rem 5%;
+    margin: 0.35rem 5%;
 }
 
 .nav-top ul {
@@ -77,12 +72,6 @@ hr {
     background-color: #BED797;
 }
 
- div, #rectangle {
-	width: 100%;
-	height: .5rem;
-	background: white;
-}
-
 div, #rectangle {
 	width: 100%;
 	height: .5rem;
@@ -95,7 +84,6 @@ article {
 }
 
 h1{
-
     margin: 0 0 1.5rem;
     padding: 0;
     font-size: 2.250rem;
@@ -122,10 +110,9 @@ p {
 
 footer {
     margin: 0;
-    padding: 1.5rem 5% 6rem;
+    padding: 1.5rem 5% 12rem;
     background-color: #83963A;
 }
-
 
 .nav-bottom,
 .nav-bottom :link,
@@ -135,11 +122,19 @@ footer {
     line-height: 1.5rem;
 }
 
-footer p {
-     float:center center;
-    font-size: 0.750rem;
+footer {
+    font-size: 1.125rem;
+    font-family: 'Raleway', sans-serif;
+    margin: 0; 
+}
 
+footer +p {
+    font-size: 0.750rem;
+    margin: 50rem 25%;  
 }
 
 footer img{
-    margin: 
+    width: 60%;
+    float: right;
+    padding-top: 2rem;
+}
