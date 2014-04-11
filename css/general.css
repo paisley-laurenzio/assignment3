@@ -61,14 +61,17 @@ Header {
 .nav-top a:visited {
     display: inline-block;
     margin: 0;
-    padding: 3.5rem 3%;
+    padding: 3rem 3%;
     color: black;
     text-decoration: none;
     font-size: 1rem;
     float: right;
+    text-transform:uppercase;
 }
 
-.selected{
+/* text-transform: uppercase */
+
+.selected {
     background-color: #BED797;
 }
 
@@ -152,19 +155,16 @@ footer {
     line-height: 1.5rem;
 }
 
-footer {
-    font-size: 1.125rem;
-    font-family: 'Raleway', sans-serif;
-    margin: 0; 
-}
-
-footer +p {
-    font-size: 0.750rem;
-    margin: 50rem 25%;  
-}
-
 footer img{
-    width: 60%;
-    float: right;
+    width: 45%;
+    float: left;
     padding-top: 2rem;
+     margin-right: 10%;
+}
+
+footer img:nth-child(2){
+    width: 45%;
+    float: left;
+    padding-top: 2rem;
+     margin-right: 0;
 }
