@@ -31,9 +31,10 @@ body {
     padding: 0;
 }
 
-Header { 
+header { 
     background-color: #83963A;
-    padding-bottom: 7.75rem;
+    overflow: hidden;
+
 }
 
 .logo {
@@ -111,29 +112,40 @@ figure {
     width: 100%;
 }
 
-figure a,
-figure a:link,
-figure a:visited {
-    font-size: .875rem;
-    color: black;
-    text-decoration: none;
+.products {
+    overflow: hidden;
 }
+
+.products h3 {
+    float: left;
+    width: 60%;
+}
+
+.products p {
+    float: left;
+    width: 50%;
+}
+
+.products img {
+    width: 40%;
+    float: right;
+    margin-bottom: 2rem;
+
+}
+
 
 .productheader {
     padding-bottom: 5rem;
     padding-top: 2rem;
 }
 
-.productpictures {
-    width: 40%;
-    float: right;
-    padding-bottom: 5rem;
-}
+
 
 .products {
 font-family: 'Raleway', sans-serif;
     font-size: 1rem;
-    margin-bottom: 4rem
+    margin-bottom: 4rem;
+    overflow: hidden;
 }
 
 p {
@@ -159,6 +171,7 @@ footer img{
     width: 45%;
     float: left;
     padding-top: 2rem;
+    Padding-bottom: 1rem;
      margin-right: 10%;
 }
 
@@ -168,3 +181,15 @@ footer img:nth-child(2){
     padding-top: 2rem;
      margin-right: 0;
 }
+
+hr {
+    margin: .5rem;
+    border: solid #BED797 1.5px;
+}
+
+footer p {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 1.5rem;
+}
+    
