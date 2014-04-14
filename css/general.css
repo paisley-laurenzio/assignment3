@@ -98,7 +98,7 @@ h2 {
     font-size: 2.250rem;
     font-family: 'Gabriela', serif;
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 3rem;
     margin-bottom: 1rem;
 }
 
@@ -150,6 +150,7 @@ font-family: 'Raleway', sans-serif;
 p {
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
+    line-height: 1.5rem;
 }
 
 footer {
@@ -166,24 +167,46 @@ footer {
     line-height: 1.5rem;
 }
 
-footer img{
-    width: 45%;
-    float: left;
-    padding-top: 2rem;
-    Padding-bottom: 1rem;
-     margin-right: 10%;
+.social {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
 }
 
-footer img:nth-child(2){
-    width: 45%;
+.social li {
     float: left;
-    padding-top: 2rem;
-     margin-right: 0;
+    width: 45%;
+    margin: 0 10% 1.5rem 0;
+    padding: 0;
+}
+
+.social a {
+    display: block;
+    background-size: 80%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin: 2rem 0 0 0;
+    padding: 100% 0 0;
+}
+
+.social li:nth-child(2){
+    margin: 0;
+    float:right;
+}
+
+.twitter {
+    background-image:url(../images/twitter.svg);
+}
+
+.facebook {
+    background-image:url(../images/facebook.svg);
 }
 
 hr {
     margin: .5rem;
     border: solid #BED797 1.5px;
+    clear:both;
 }
 
 footer p {
