@@ -17,7 +17,6 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
-    
     font-size: 100%;
 }
 
@@ -34,7 +33,6 @@ body {
 header { 
     background-color: #83963A;
     overflow: hidden;
-
 }
 
 .logo {
@@ -69,8 +67,6 @@ header {
     float: right;
     text-transform:uppercase;
 }
-
-/* text-transform: uppercase */
 
 .selected {
     background-color: #BED797;
@@ -138,10 +134,8 @@ figure {
     padding-top: 2rem;
 }
 
-
-
 .products {
-font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 1rem;
     margin-bottom: 2rem;
     overflow: hidden;
@@ -214,4 +208,3 @@ footer p {
     text-transform: uppercase;
     margin-top: 1.5rem;
 }
-    
