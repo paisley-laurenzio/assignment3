@@ -177,10 +177,10 @@ footer {
 
 .social a {
     display: block;
-    background-size: 80%;
+    background-size: 75%;
     background-position: center top;
     background-repeat: no-repeat;
-    margin: 2rem 0 0 0;
+    margin: 3rem 0 0 0;
     padding: 100% 0 0;
 }
 
