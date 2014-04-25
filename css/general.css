@@ -115,11 +115,15 @@ figure {
 .products h3 {
     float: left;
     width: 60%;
+    margin: 0 0 .5rem;
+    padding: 0;
 }
 
 .products p {
     float: left;
     width: 60%;
+    margin: 0;
+    padding: 0;
 }
 
 .products img {
