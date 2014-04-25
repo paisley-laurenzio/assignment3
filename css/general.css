@@ -129,7 +129,8 @@ figure {
 .products img {
     width: 40%;
     float: right;
-    margin-bottom: 11rem;
+    padding-bottom: 10rem;
+   
 }
 
 .productheader {
