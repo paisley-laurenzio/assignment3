@@ -112,6 +112,10 @@ figure {
     overflow: hidden;
 }
 
+.products figure {
+    clear: both;
+}
+
 .products h3 {
     float: left;
     width: 60%;
@@ -130,7 +134,6 @@ figure {
     width: 40%;
     float: right;
     padding-bottom: 10rem;
-   
 }
 
 .productheader {
