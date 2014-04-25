@@ -134,6 +134,9 @@ figure {
     width: 40%;
     float: right;
     padding-bottom: 10rem;
+    position: relative;
+    top: 0;
+    right: 0;
 }
 
 .productheader {
